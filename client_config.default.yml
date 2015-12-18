@@ -1,0 +1,12 @@
+client:
+    name: null
+    ui: "console"  # can be: console/console/console/console
+
+    interface: null  # if null - interface will be auto-chosen
+    broadcasting_port: 23912
+    tcp_port: 8239
+
+logging:
+    filename: null  # if null - stderr used
+    level: "info"  # can be debug/info/warn/error
+    format: "%(relativeCreated)d [%(threadName)s]\t%(name)s [%(levelname)s]:\t %(message)s"
